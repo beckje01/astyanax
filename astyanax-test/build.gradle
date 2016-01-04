@@ -13,6 +13,8 @@ dependencies {
     compile "joda-time:joda-time:$jodaTimeVersion"
     compile "javax.persistence:persistence-api:$jpaVersion"
     compile "org.slf4j:slf4j-api:$slf4jVersion"
+    compile "org.slf4j:slf4j-log4j12:1.7.2"
+    compile "log4j:log4j:1.2.16 "
     compile "commons-lang:commons-lang:$commonsLangVersion"
     compile("com.datastax.cassandra:cassandra-driver-core:$javaDriverVersion") {
         exclude group: 'com.google.guava', module: 'guava'
