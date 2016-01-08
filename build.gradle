@@ -7,7 +7,7 @@ subprojects {
     apply plugin: 'java'
     apply from: rootProject.file('gradle/publishing.gradle')
 
-    version="3.8.1-PG1"
+    version="3.8.1-PG2-SNAPSHOT"
     group = "com.netflix.${githubProjectName}"
 
     sourceCompatibility = 1.6
